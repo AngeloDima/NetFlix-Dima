@@ -7,7 +7,7 @@ import { Observable } from 'rxjs'
 })
 export class DataService {
   apyKey = "8d51300dec6f04d30c71b1ce5ce1c37f";
-  url = `https://api.themoviedb.org/3/movie/550?api_key=${this.apyKey}`
+  url = `https://api.themoviedb.org/3/movie/popular?api_key=${this.apyKey}`
 
   constructor(private http: HttpClient) { }
 
